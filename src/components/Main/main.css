@@ -1,0 +1,39 @@
+.main {
+  background-image: url("../../images/giggle-crew-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-position-x: 15%;
+  height: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.header {
+  text-align: center;
+}
+
+.cont-btn {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.header-col {
+/* display: flex;
+justify-content: center;
+align-items: center; */
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    height: 100vw;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .main {
+    height: 50vw;
+  }
+}
