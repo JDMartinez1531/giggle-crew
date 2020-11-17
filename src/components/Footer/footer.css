@@ -1,0 +1,21 @@
+.footer {
+  padding-top: 1%;
+  justify-content: center;
+}
+
+.footer-icons {
+  margin-left: 3%;
+  margin-right: 2%;
+  align-items: center;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 572px) {
+  .footer-contact {
+    text-align: center;
+  }
+}
