@@ -2,11 +2,12 @@ import React from "react";
 import { Nav, Navbar } from "react-bootstrap"
 import logo from "../../images/gigglecrewlogo.png"
 import "./navigation.css"
+import { Link } from "react-router-dom"
 
 function Navigation() {
   return (
 <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-  <Navbar.Brand href="#home">
+  <Navbar.Brand href="/">
   <img
         src={logo}
         width="300"
@@ -18,7 +19,7 @@ function Navigation() {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto">
-      <Nav.Link href="#">Contact</Nav.Link>
+      <Nav.Link><Link to="/hbookform">Contact</Link></Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "./main.css";
+import { Link } from "react-router-dom";
 
 function Main() {
 	return (
@@ -14,7 +15,7 @@ function Main() {
 			</Row>
 			<Row>
 				<Col className="cont-btn">
-					<Button>Contact</Button>
+					<Link to="/hbookform"><Button>Contact</Button></Link>
 				</Col>
 			</Row>
 		</Container>
