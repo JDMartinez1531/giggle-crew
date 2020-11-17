@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import { FaPhoneAlt, FaFacebook } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 
-const facebookUrl = "https://www.facebook.com";
+const facebookUrl = "https://www.facebook.com/sillysparklesclown";
 const phone = "tel:+5128091305";
 const email = "mailto:regina@gigglecrew.com";
 
