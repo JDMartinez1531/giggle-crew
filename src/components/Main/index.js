@@ -8,14 +8,17 @@ function Main() {
 		<Container fluid className="main">
 			<Row>
 				<Col className="header-col">
-					<h1 className="header">
+          <div className="text-box">
+          <h1 className="header">
 						Add "wow" factor entertainment to your next event
 					</h1>
+          </div>
+					
 				</Col>
 			</Row>
 			<Row>
 				<Col className="cont-btn">
-					<Link to="/hbookform"><Button>Contact</Button></Link>
+					<Link to="/hbookform"><Button className="contact-btn">Contact</Button></Link>
 				</Col>
 			</Row>
 		</Container>

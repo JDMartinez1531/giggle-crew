@@ -13,6 +13,7 @@
 
 .header {
   text-align: center;
+  font-weight: bold;
 }
 
 .cont-btn {
@@ -20,15 +21,25 @@
   margin-top: 10%;
 }
 
-.header-col {
-/* display: flex;
-justify-content: center;
-align-items: center; */
+.text-box {
+  margin: 30px;
+  background: rgba(255, 203, 71, 0.3)
+}
+
+.contact-btn {
+  width: 15rem;
+  background-color: #FFC536!important;
+  color: #000!important;
+  border-color: #FFC536!important;
+}
+
+.contact-btn:hover {
+  background-color: #e0a100!important;
 }
 
 @media screen and (max-width: 600px) {
   .main {
-    height: 100vw;
+    height: 120vw;
   }
 }
 
