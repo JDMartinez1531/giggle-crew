@@ -13,10 +13,10 @@ function App() {
 		<div>
 			<Navigation />
       <Switch>
-      <Route path="/hbookform">
+      <Route exact path="/contact">
         <HbookForm />
       </Route>
-      <Route path="/">
+      <Route exact path="/">
         <Main />
       </Route>
 

@@ -19,7 +19,7 @@ function Navigation() {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto">
-      <Nav.Link><Link to="/hbookform" className="nav-cont">Contact</Link></Nav.Link>
+      <Nav.Link><Link to="/contact" className="nav-cont">Contact</Link></Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

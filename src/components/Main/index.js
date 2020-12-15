@@ -17,7 +17,7 @@ function Main() {
 			</Row>
 			<Row>
 				<Col className="cont-btn">
-					<Link to="/hbookform"><Button className="contact-btn">GET STARTED</Button></Link>
+					<Link to="/contact"><Button className="contact-btn">GET STARTED</Button></Link>
 				</Col>
 			</Row>
 		</Container>
